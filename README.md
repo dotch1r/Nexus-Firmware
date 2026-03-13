@@ -85,9 +85,9 @@ On startup, the ASCII NEXUS logo fades in line by line, followed by a rising boo
 
 ### Steps
 ```bash
-git clone https://github.com/dotch1r/nexus-fw
+git clone https://github.com/dotch1r/Nexus-Firmware
 ```
-1. Open `nexus_firmware.ino` in Arduino IDE
+1. Open `nexusFW.ino` in Arduino IDE
 2. Select board: **M5StickC Plus2**
 3. Upload and watch it boot 🚀
 
