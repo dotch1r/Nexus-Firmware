@@ -1,38 +1,26 @@
-NEXUS Custom License (NCL) v1.0
-
-Copyright (c) 2026 dotch1r
-
+Copyright (c) 2025 dotch1r
 All rights reserved.
 
-1. Ownership
-   This software, including its source code, design, structure, and documentation, is the exclusive property of the author.
+This software and its source code (the "Software") are the exclusive property
+of dotch1r. No part of this Software may be used, copied, modified, merged,
+published, distributed, sublicensed, or sold without the prior written
+permission of the copyright owner.
 
-2. Viewing Permission
-   The source code may be viewed for educational or reference purposes only.
+PERMITTED USE
+-------------
+You may view and study this code for personal, non-commercial, educational
+purposes only. You may not deploy, distribute, or use this code in any project
+(personal, commercial, or otherwise) without explicit written permission from
+the author.
 
-3. Restrictions
-   Without explicit written permission from the author, the following actions are strictly prohibited:
+TO REQUEST PERMISSION
+---------------------
+Contact the author via GitHub: https://github.com/dotch1r
 
-* Copying the source code
-* Modifying the software
-* Distributing the software or any modified version
-* Using the software in other projects
-* Selling or commercializing the software
-* Publishing forks or derivative works
+DISCLAIMER
+----------
+This Software is provided "as is", without warranty of any kind. The author
+shall not be held liable for any damages or legal consequences arising from
+the use or misuse of this Software.
 
-4. No Redistribution
-   This project may not be redistributed in any form, including compiled binaries, modified versions, or partial code.
-
-5. No Derivative Works
-   Creating derivative projects based on this software is not permitted.
-
-6. Disclaimer
-   The software is provided "as is", without warranty of any kind. The author shall not be held liable for any damages arising from the use of this software.
-
-7. Violation
-   Any violation of this license may result in legal action.
-
-For permissions or inquiries, contact the author.
-
-Project: NEXUS Firmware
-Author: DOTCH
+Unauthorized use of this Software is a violation of copyright law.
