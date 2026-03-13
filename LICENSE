@@ -1,21 +1,38 @@
-MIT License
+NEXUS Custom License (NCL) v1.0
 
 Copyright (c) 2026 dotch1r
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All rights reserved.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Ownership
+   This software, including its source code, design, structure, and documentation, is the exclusive property of the author.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Viewing Permission
+   The source code may be viewed for educational or reference purposes only.
+
+3. Restrictions
+   Without explicit written permission from the author, the following actions are strictly prohibited:
+
+* Copying the source code
+* Modifying the software
+* Distributing the software or any modified version
+* Using the software in other projects
+* Selling or commercializing the software
+* Publishing forks or derivative works
+
+4. No Redistribution
+   This project may not be redistributed in any form, including compiled binaries, modified versions, or partial code.
+
+5. No Derivative Works
+   Creating derivative projects based on this software is not permitted.
+
+6. Disclaimer
+   The software is provided "as is", without warranty of any kind. The author shall not be held liable for any damages arising from the use of this software.
+
+7. Violation
+   Any violation of this license may result in legal action.
+
+For permissions or inquiries, contact the author.
+
+Project: NEXUS Firmware
+Author: DOTCH
