@@ -1,0 +1,49 @@
+name: NEXUS Firmware Build
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:  # Elle de tetiklenebilir
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repoyu çek
+        uses: actions/checkout@v4
+
+      - name: arduino-cli kur
+        uses: arduino/setup-arduino-cli@v1
+
+      - name: ESP32 board paketini ekle
+        run: |
+          arduino-cli config init
+          arduino-cli config add board_manager.additional_urls \
+            https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
+          arduino-cli core update-index
+          arduino-cli core install m5stack:esp32
+
+      - name: Gerekli kütüphaneleri kur
+        run: |
+          arduino-cli lib install "M5StickCPlus2"
+          arduino-cli lib install "M5Unified"
+          arduino-cli lib install "IRremoteESP8266"
+          arduino-cli lib install "ArduinoJson"
+
+      - name: Derle (.bin üret)
+        run: |
+          arduino-cli compile \
+            --fqbn m5stack:esp32:m5stickc-plus2 \
+            --export-binaries \
+            nexus_firmware/nexus_firmware.ino
+
+      - name: .bin dosyasını artifact olarak yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: NEXUS-firmware-${{ github.sha }}
+          path: nexus_firmware/build/**/*.bin
+          retention-days: 30
+          
