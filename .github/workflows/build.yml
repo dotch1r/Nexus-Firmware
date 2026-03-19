@@ -1,4 +1,4 @@
-name: NEXUS Firmware Build
+oname: NEXUS Firmware Build
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
           arduino-cli compile \
             --fqbn m5stack:esp32:m5stickc-plus2 \
             --export-binaries \
-            nexus_firmware/nexus_firmware.ino
+            nexusFW/nexusFW.ino
 
       - name: .bin dosyasını artifact olarak yükle
         uses: actions/upload-artifact@v4
